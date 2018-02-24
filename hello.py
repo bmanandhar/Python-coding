@@ -4,7 +4,5 @@ Spyder Editor
 
 This is a temporary script file.
 """
-x = "hello"
-
-y = " world" 
-print (x + y)   
+x = 9; y = 10; z = 13
+print (x + y + z)
