@@ -25,4 +25,19 @@ else:
     # it must be the case that varA < varB
     print ("smaller")
 ''' End of code'''
+
+num = 5
+if num > 2:
+    print(num)
+    num -= 1
+print(num)
+# 01
+
+num = 0
+while num <= 5:
+    print(num)
+    num += 1
+    
+print("Outside of loop")
+print(num)
     
