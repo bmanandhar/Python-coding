@@ -24,7 +24,8 @@ else:
     # If none of the above conditions are true,
     # it must be the case that varA < varB
     print ("smaller")
-''' End of code'''
+    # End of code
+''' '''
 
 num = 5
 if num > 2:
@@ -41,7 +42,6 @@ while num <= 5:
 print("Outside of loop")
 print(num)
 #02
-
 numberOfLoops = 0
 numberOfApples = 2
 while numberOfLoops < 10:
@@ -49,4 +49,37 @@ while numberOfLoops < 10:
     numberOfApples += numberOfLoops
     numberOfLoops -= 1
 print("Number of apples: " + str(numberOfApples))
+#03
+
+num = 10
+while num > 3:
+    num -= 1
+    print(num) 
+#04
     
+num = 10
+while True:
+    if num < 7:
+        print('Breaking out of loop')
+        break
+    print(num)
+    num -= 1
+print('Outside of loop')
+
+#05
+
+num = 100
+while not False:
+    if num < 0:
+        break
+print('num is: ' + str(num)) 
+
+#06
+
+#07
+
+#08
+
+#09
+
+#10    
